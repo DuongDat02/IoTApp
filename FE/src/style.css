@@ -1,0 +1,186 @@
+.content{
+  margin-left: 200px; /* Độ rộng của sidebar */
+  padding: 20px; /* Khoảng cách giữa nội dung và viền */
+}
+
+.parameter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .parameter-box {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .icon{
+    font-size: 50px;
+  }
+  .parameter-box h2 {
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parameter-box p {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .temperature {
+    background:  rgb(196, 80, 80);
+    color: white;
+  }
+  
+  .humidity {
+    background: rgb(81, 81, 218);
+    color: white;
+  }
+  
+  .light {
+    background: rgb(230, 230, 98);
+    color: black;
+  }
+
+  .temperature.high {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+  
+  .humidity.high {
+    background-color: rgb(0, 0, 255);
+    color: white;
+  }
+  
+  .gas.high {
+    background-color: rgb(255, 255, 0);
+    color: black;
+  }
+  .actionhistory-content{
+    text-align: center;
+    font-size: 24px;
+  }
+  table {
+    border: 3px solid #ff0000; /* Viền của bảng */
+    margin: 0 auto; /* Căn giữa bảng theo chiều ngang */
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ffffff; /* Viền của các ô */
+  }
+  tr:hover {
+    background-color: #ffffff; /* Màu nền khi di chuột qua dòng */
+  }
+  .sensordata-content{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .a-container {
+    display: flex;
+  /*  flex-wrap: wrap;  Cho phép các phần tử chuyển hàng khi không đủ không gian */
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+  }
+  .chart-custom{
+    margin-left: 50px;
+    padding: 20px; /* Khoảng cách giữa nội dung và viền */
+    flex: 2;
+    
+    background-color: #fff;
+  }
+  .controls {
+    margin-top: 30px;
+    flex: 1; /* Sử dụng toàn bộ không gian trống trên hàng dưới */
+    display: flex;
+    flex-direction: column; /* Xếp theo cột */
+    gap: 10px;
+  }
+  .control-box {
+    /* Các CSS khác cho phần tử control-box */
+    width: 200px;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #000;
+      border-radius: 10px;
+      background-color: #fcc1c1;
+      
+    position: relative;
+  }
+  
+  
+  .control-box .control-icon-lb.on {
+    color: yellow; /* Màu khi đèn bật */
+  }
+  .control-icon-lb{
+    font-size: 30px;
+    margin-bottom: 10px; /* Khoảng cách phía bên phải của biểu tượng đèn và quạt */
+  }
+  .control-box .control-icon-fan.on {
+    color: yellow;/* Màu khi đèn bật */
+  }
+  .control-icon-fan{
+    font-size: 30px;
+    margin-bottom: 10px; /* Khoảng cách phía bên phải của biểu tượng đèn và quạt */
+  }
+
+  .control-box h3 {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .page-button {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .page-button.active {
+    background-color: #e7f91f;
+    color: rgb(0, 0, 0);
+  }
+  
+  .page-button:hover {
+    background-color: #eaff31;
+  }
+
+  .search-controls {
+    margin-bottom: 20px;
+  }
+  
+  .search-controls label {
+    margin-right: 10px;
+  }
+  
+  .search-controls button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  
